@@ -5,11 +5,12 @@ package graph;
  * @author Vivekanand Ganapathy Nagarajan
  * @version 1.0 July 7th, 2016
  */
-
+@SuppressWarnings("unchecked")
 class MaxMinPQ<key extends Comparable<key>>{
     private key[] array;
     private int size ;
     private boolean isMax; //min or max priority queue
+
 
     MaxMinPQ(boolean isMax){
         array = (key[])new Comparable[2];
