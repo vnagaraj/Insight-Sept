@@ -15,4 +15,7 @@ public class UnitTestConstants {
     static final String TIME_STAMP_1 = "2016-04-07T03:33:19Z";
     static final String TIME_STAMP_2 = "2016-04-07T03:34:18Z";
     static final String TIME_STAMP_3 = "2016-04-07T03:34:58Z";
+    //deleted on cleanup, used in WriterTest and ExecutorTest
+    static final String EXECUTOR_INPUT_FILE = "payments_input.txt";
+    static final String OUTPUT_FILE = "payments_output.txt";
 }
